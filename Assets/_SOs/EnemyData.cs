@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -20,6 +21,7 @@ namespace _SOs
         public float attackRange;
         public float attackCooldown;
         [CanBeNull] public GameObject projectilePrefab;
+        [CanBeNull] public AudioClip[] gunshotSfx;
         public float projectileSpeed;
         public float damageValue;
     }
